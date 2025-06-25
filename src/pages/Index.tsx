@@ -77,7 +77,7 @@ const Index = () => {
                   <DollarSign className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-green-800 mb-2">Até 90% de Economia</h3>
-                <p className="text-green-600">Na sua conta de energia elétrica</p>
+                <p className="text-green-600">Potencial de redução na sua conta de energia</p>
               </div>
               <div className="text-center">
                 <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -90,8 +90,8 @@ const Index = () => {
                 <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-green-800 mb-2">+1000 Famílias</h3>
-                <p className="text-green-600">Já transformaram suas propriedades</p>
+                <h3 className="text-2xl font-bold text-green-800 mb-2">Crédito Facilitado</h3>
+                <p className="text-green-600">Financiamento especial para agricultores</p>
               </div>
             </div>
           </div>
@@ -254,75 +254,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-green-800 mb-4">
-              O que Nossos Clientes Dizem
-            </h2>
-            <p className="text-xl text-green-600">
-              Histórias reais de agricultores que transformaram suas propriedades
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="border-green-200">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                    <Users className="h-6 w-6 text-green-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-green-800">José Silva</h4>
-                    <p className="text-sm text-green-600">Produtor de Milho - MS</p>
-                  </div>
-                </div>
-                <p className="text-green-700 italic">
-                  "Minha conta de luz caiu de R$ 800 para R$ 80 por mês! O investimento se pagou em menos de 3 anos e agora tenho energia de sobra para expandir a produção."
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-green-200">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                    <Users className="h-6 w-6 text-green-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-green-800">Maria Santos</h4>
-                    <p className="text-sm text-green-600">Produtora de Hortaliças - SP</p>
-                  </div>
-                </div>
-                <p className="text-green-700 italic">
-                  "O sistema de irrigação solar mudou nossa vida! Conseguimos plantar o ano todo e nossa produtividade triplicou. A EcoRural foi essencial nessa transformação."
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-green-200">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                    <Users className="h-6 w-6 text-green-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-green-800">João Oliveira</h4>
-                    <p className="text-sm text-green-600">Criador de Gado - GO</p>
-                  </div>
-                </div>
-                <p className="text-green-700 italic">
-                  "O financiamento foi super fácil e rápido. Em 6 meses já estava com tudo instalado e funcionando. Recomendo para todos os produtores rurais!"
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
-      <section id="contato" className="py-20 bg-gradient-to-br from-green-50 to-emerald-100">
+      <section id="contato" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-green-800 mb-4">
