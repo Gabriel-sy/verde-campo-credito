@@ -1,24 +1,507 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>verde-campo-credito</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoRural - Energia Limpa para o Campo</title>
+    <meta name="description" content="Transforme sua propriedade com energia limpa e sustentável através de microcrédito especializado">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                    </svg>
+                    <span class="logo-text">EcoRural</span>
+                </div>
+                <nav class="nav">
+                    <a href="#inicio" class="nav-link">Início</a>
+                    <a href="#beneficios" class="nav-link">Benefícios</a>
+                    <a href="#como-funciona" class="nav-link">Como Funciona</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </nav>
+                <button class="btn btn-primary">Quero Economizar</button>
+            </div>
+        </div>
+    </header>
 
-    <meta property="og:title" content="verde-campo-credito" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Transforme sua Propriedade com 
+                    <span class="text-accent">Energia Limpa</span>
+                </h1>
+                <p class="hero-description">
+                    Reduza em até 90% sua conta de energia e aumente a produtividade da sua terra com nosso microcrédito especializado para soluções energéticas sustentáveis.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="5,3 19,12 5,21 5,3" fill="currentColor"/>
+                        </svg>
+                        Simular Economia
+                    </button>
+                    <button class="btn btn-outline btn-lg">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                        Falar com Especialista
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="12" y1="1" x2="12" y2="23" stroke="currentColor" stroke-width="2"/>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="stat-title">Até 90% de Economia</h3>
+                        <p class="stat-description">Na sua conta de energia elétrica</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="stat-title">100% Sustentável</h3>
+                        <p class="stat-description">Energia limpa e renovável</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="stat-title">+1000 Famílias</h3>
+                        <p class="stat-description">Já transformaram suas propriedades</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Benefits Section -->
+    <section id="beneficios" class="section benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por que Escolher a EcoRural?</h2>
+                <p class="section-description">
+                    Somos especialistas em levar eficiência energética para o campo, com soluções pensadas especialmente para o agricultor familiar.
+                </p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon sun">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+                            <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2"/>
+                            <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"/>
+                            <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2"/>
+                            <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Energia Solar Residencial</h3>
+                    <p class="benefit-description">Painéis solares para sua casa, reduzindo drasticamente os custos com eletricidade.</p>
+                    <ul class="benefit-list">
+                        <li>• Instalação profissional</li>
+                        <li>• Garantia de 25 anos</li>
+                        <li>• Manutenção inclusa</li>
+                    </ul>
+                </div>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+                <div class="benefit-card">
+                    <div class="benefit-icon sprout">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 20h10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M10 20c5.5-2.5.8-6.4 3-10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.7 4.3-1.4 1-1.1 1.6-2.7 1.7-4.7-2.4.1-4.2.7-4.9 2.1z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Sistemas de Irrigação</h3>
+                    <p class="benefit-description">Bombeamento solar para irrigação eficiente e economia de água.</p>
+                    <ul class="benefit-list">
+                        <li>• Bombeamento automático</li>
+                        <li>• Economia de água</li>
+                        <li>• Aumento da produtividade</li>
+                    </ul>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon zap">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Equipamentos Eficientes</h3>
+                    <p class="benefit-description">Motores e equipamentos de alta eficiência energética para sua propriedade.</p>
+                    <ul class="benefit-list">
+                        <li>• Menor consumo de energia</li>
+                        <li>• Maior durabilidade</li>
+                        <li>• Retorno garantido</li>
+                    </ul>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon dollar">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="12" y1="1" x2="12" y2="23" stroke="currentColor" stroke-width="2"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Microcrédito Facilitado</h3>
+                    <p class="benefit-description">Parceria com bancos para oferecer as melhores condições de financiamento.</p>
+                    <ul class="benefit-list">
+                        <li>• Juros especiais</li>
+                        <li>• Aprovação rápida</li>
+                        <li>• Pagamento flexível</li>
+                    </ul>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon users">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Assessoria Técnica</h3>
+                    <p class="benefit-description">Acompanhamento completo desde o projeto até a instalação e manutenção.</p>
+                    <ul class="benefit-list">
+                        <li>• Consultoria gratuita</li>
+                        <li>• Projeto personalizado</li>
+                        <li>• Suporte contínuo</li>
+                    </ul>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon leaf">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Sustentabilidade</h3>
+                    <p class="benefit-description">Contribua para um futuro mais verde e sustentável para sua família.</p>
+                    <ul class="benefit-list">
+                        <li>• Redução de CO₂</li>
+                        <li>• Energia renovável</li>
+                        <li>• Futuro sustentável</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section id="como-funciona" class="section how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Como Funciona? É Simples!</h2>
+                <p class="section-description">
+                    Em apenas 4 passos, você transforma sua propriedade e começa a economizar energia
+                </p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Diagnóstico Gratuito</h3>
+                    <p class="step-description">
+                        Visitamos sua propriedade e analisamos o consumo de energia atual
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Projeto Personalizado</h3>
+                    <p class="step-description">
+                        Criamos uma solução sob medida para suas necessidades específicas
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Financiamento Aprovado</h3>
+                    <p class="step-description">
+                        Cuidamos de toda a documentação e aprovação do microcrédito
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Instalação e Economia</h3>
+                    <p class="step-description">
+                        Instalamos o sistema e você começa a economizar imediatamente
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <button class="btn btn-primary btn-lg">Começar Meu Projeto</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que Nossos Clientes Dizem</h2>
+                <p class="section-description">
+                    Histórias reais de agricultores que transformaram suas propriedades
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">José Silva</h4>
+                            <p class="testimonial-role">Produtor de Milho - MS</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Minha conta de luz caiu de R$ 800 para R$ 80 por mês! O investimento se pagou em menos de 3 anos e agora tenho energia de sobra para expandir a produção."
+                    </p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Maria Santos</h4>
+                            <p class="testimonial-role">Produtora de Hortaliças - SP</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "O sistema de irrigação solar mudou nossa vida! Conseguimos plantar o ano todo e nossa produtividade triplicou. A EcoRural foi essencial nessa transformação."
+                    </p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">João Oliveira</h4>
+                            <p class="testimonial-role">Criador de Gado - GO</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "O financiamento foi super fácil e rápido. Em 6 meses já estava com tudo instalado e funcionando. Recomendo para todos os produtores rurais!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pronto para Transformar sua Propriedade?</h2>
+                <p class="section-description">
+                    Entre em contato conosco e receba uma proposta personalizada
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Fale Conosco</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/>
+                                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>contato@ecorural.com.br</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <pin points="21,10 8,21 l-5.5-5.5 13-13 z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>São Paulo, SP - Atendemos todo o Brasil</span>
+                        </div>
+                    </div>
+                    
+                    <div class="schedule">
+                        <h4 class="schedule-title">Horário de Atendimento</h4>
+                        <p>Segunda a Sexta: 8h às 18h</p>
+                        <p>Sábado: 8h às 12h</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Solicite uma Proposta</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nome Completo</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Telefone</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="property" class="form-label">Tamanho da Propriedade (hectares)</label>
+                            <input type="text" id="property" name="property" class="form-input" placeholder="Ex: 10 hectares" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Conte-nos sobre sua propriedade</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Tipo de cultura, consumo atual de energia, objetivos..." rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Solicitar Proposta Gratuita
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">EcoRural</span>
+                    </div>
+                    <p class="footer-description">
+                        Transformando propriedades rurais com energia limpa e sustentável
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Soluções</h4>
+                    <ul class="footer-links">
+                        <li>Energia Solar Residencial</li>
+                        <li>Sistemas de Irrigação</li>
+                        <li>Equipamentos Eficientes</li>
+                        <li>Microcrédito Rural</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Empresa</h4>
+                    <ul class="footer-links">
+                        <li>Sobre Nós</li>
+                        <li>Nossa Missão</li>
+                        <li>Parcerias</li>
+                        <li>Certificações</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-links">
+                        <li>(11) 99999-9999</li>
+                        <li>contato@ecorural.com.br</li>
+                        <li>São Paulo, SP</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoRural. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mensagem enviada! Em breve entraremos em contato para apresentar as melhores soluções para sua propriedade.');
+            this.reset();
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                header.style.backdropFilter = 'blur(5px)';
+            }
+        });
+    </script>
+</body>
 </html>
