@@ -51,47 +51,53 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section id="inicio" className="py-20 px-4">
-        <div className="container mx-auto text-center">
+      <section 
+        id="inicio" 
+        className="py-20 px-4 relative bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')`
+        }}
+      >
+        <div className="container mx-auto text-center relative z-10">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-green-800 mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
               Transforme sua Propriedade com 
-              <span className="text-green-600"> Energia Limpa</span>
+              <span className="text-green-400"> Energia Limpa</span>
             </h1>
-            <p className="text-xl text-green-700 mb-8 leading-relaxed">
+            <p className="text-xl text-green-100 mb-8 leading-relaxed drop-shadow-md">
               Reduza em até 90% sua conta de energia e aumente a produtividade da sua terra com nosso microcrédito especializado para soluções energéticas sustentáveis.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-lg px-8 py-4">
+              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-lg px-8 py-4 shadow-lg">
                 <Zap className="mr-2 h-5 w-5" />
                 Simular Economia
               </Button>
-              <Button size="lg" variant="outline" className="border-green-600 text-green-600 hover:bg-green-50 text-lg px-8 py-4">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-green-600 text-lg px-8 py-4 shadow-lg backdrop-blur-sm">
                 <Phone className="mr-2 h-5 w-5" />
                 Falar com Especialista
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">
-                <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-white/90 backdrop-blur-sm w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <DollarSign className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-green-800 mb-2">Até 90% de Economia</h3>
-                <p className="text-green-600">Potencial de redução na sua conta de energia</p>
+                <h3 className="text-2xl font-bold text-white mb-2 drop-shadow-md">Até 90% de Economia</h3>
+                <p className="text-green-100 drop-shadow-sm">Potencial de redução na sua conta de energia</p>
               </div>
               <div className="text-center">
-                <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-white/90 backdrop-blur-sm w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <Leaf className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-green-800 mb-2">100% Sustentável</h3>
-                <p className="text-green-600">Energia limpa e renovável</p>
+                <h3 className="text-2xl font-bold text-white mb-2 drop-shadow-md">100% Sustentável</h3>
+                <p className="text-green-100 drop-shadow-sm">Energia limpa e renovável</p>
               </div>
               <div className="text-center">
-                <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-white/90 backdrop-blur-sm w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <Users className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-green-800 mb-2">Crédito Facilitado</h3>
-                <p className="text-green-600">Financiamento especial para agricultores</p>
+                <h3 className="text-2xl font-bold text-white mb-2 drop-shadow-md">Crédito Facilitado</h3>
+                <p className="text-green-100 drop-shadow-sm">Financiamento especial para agricultores</p>
               </div>
             </div>
           </div>
