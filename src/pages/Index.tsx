@@ -105,8 +105,15 @@ const Index = () => {
       </section>
 
       {/* Benefits Section */}
-      <section id="beneficios" className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+      <section id="beneficios" className="py-20 bg-white relative">
+        {/* Background image for benefits section */}
+        <div 
+          className="absolute inset-0 opacity-5 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`
+          }}
+        ></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-green-800 mb-4">
               Por que Escolher a EcoRural?
@@ -199,8 +206,15 @@ const Index = () => {
       </section>
 
       {/* How it Works */}
-      <section id="como-funciona" className="py-20 bg-gradient-to-br from-green-50 to-emerald-100">
-        <div className="container mx-auto px-4">
+      <section id="como-funciona" className="py-20 bg-gradient-to-br from-green-50 to-emerald-100 relative">
+        {/* Background image for how it works section */}
+        <div 
+          className="absolute inset-0 opacity-10 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`
+          }}
+        ></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-green-800 mb-4">
               Como Funciona? É Simples!
@@ -261,8 +275,15 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contato" className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+      <section id="contato" className="py-20 bg-white relative">
+        {/* Background image for contact section */}
+        <div 
+          className="absolute inset-0 opacity-5 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`
+          }}
+        ></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-green-800 mb-4">
               Pronto para Transformar sua Propriedade?
